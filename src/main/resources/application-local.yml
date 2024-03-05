@@ -1,0 +1,11 @@
+micronaut:
+  server:
+    host: "localhost"
+
+datasources:
+  default:
+    url: 'jdbc:postgresql://db:5432/gowno'
+    username: 'postgres'
+    password: 'postgres'
+    driverClassName: org.postgresql.Driver
+    dialect: POSTGRES
